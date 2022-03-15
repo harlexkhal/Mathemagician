@@ -6,6 +6,9 @@
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library
 
+## Live Demo
+Click [here](https://harlexkhal.github.io/Mathemagician/) to view live demo
+
 ### Features implemented so far are:
 
 - Project Setup with React Installations
