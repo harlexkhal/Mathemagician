@@ -1,4 +1,4 @@
-# Mathemagician | M4Wx
+# Mathemagician | M3Wx
 
 > "Mathemagician" is a web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
