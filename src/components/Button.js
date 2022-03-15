@@ -8,8 +8,10 @@ class Button extends React.PureComponent {
       let cl = 'bg-ash';
       let row = '';
       let selectLast = 3;
-      if (last && index === 0) {
-        row = 'ctrl-btn-2-row';
+      if (last) {
+        if (index === 0) {
+          row = 'ctrl-btn-2-row';
+        }
         selectLast = 2;
       }
       if (index === selectLast) {
