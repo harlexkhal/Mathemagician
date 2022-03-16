@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Button extends React.PureComponent {
   render() {
-    const { ctrls, last } = this.props;
+    const { ctrls, last, setBtn } = this.props;
     const listItems = ctrls.map((ctrl, index) => {
       let cl = 'bg-ash';
       let row = '';
@@ -17,7 +17,7 @@ class Button extends React.PureComponent {
       if (index === selectLast) {
         cl = 'bg-orange';
       }
-      return <button key={ctrl} type="button" className={`ctrl-btn-row ${row} ${cl} font`}>{ctrl}</button>;
+      return <button key={ctrl} type="button" onClick={() => setBtn(ctrl)} className={`ctrl-btn-row ${row} ${cl} font`}>{ctrl}</button>;
     }, last);
     return (
       <div className="ctrls">{listItems}</div>
@@ -27,6 +27,7 @@ class Button extends React.PureComponent {
 
 Button.propTypes = {
   ctrls: PropTypes.arrayOf(PropTypes.string).isRequired,
+  setBtn: PropTypes.func.isRequired,
   last: PropTypes.bool.isRequired,
 };
 
