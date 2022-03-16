@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class Button extends React.PureComponent {
-  render() {
+  render = () => {
     const { ctrls, last, setBtn } = this.props;
     const listItems = ctrls.map((ctrl, index) => {
       let cl = 'bg-ash';

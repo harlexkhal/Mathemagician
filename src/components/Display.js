@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class Display extends React.PureComponent {
-  render() {
+  render = () => {
     const { display } = this.props;
     return (
       <div className="display">
