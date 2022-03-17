@@ -3,13 +3,15 @@ import Calculate from '../logic/Calculate';
 import Button from './Button';
 import Display from './Display';
 
-class Calculator extends React.PureComponent {
+class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   componentDidMount() {
+    this.onBtnPressed = this.onBtnPressed.bind(this);
+
     this.setState({
       total: null,
       next: null,
