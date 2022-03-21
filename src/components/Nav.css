@@ -19,6 +19,11 @@
   margin: 25px 100px 0 auto;
 }
 
+.logo-container {
+  display: flex;
+  text-decoration: none;
+}
+
 .menu {
   display: flex;
   list-style: none;
