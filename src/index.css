@@ -1,4 +1,9 @@
 body {
+  background-image: url("assets/bg-img.png");
+  background-color: rgb(216, 132, 216);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin: 0;
   font-family:
 
