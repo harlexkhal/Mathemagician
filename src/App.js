@@ -1,9 +1,12 @@
-import './App.css';
+import Nav from './components/Nav';
 import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <Calculator />
+    <div>
+      <Nav />
+      <Calculator />
+    </div>  
   );
 }
 

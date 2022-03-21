@@ -1,3 +1,4 @@
+import './Calculator.css';
 import React, { useState } from 'react';
 import Calculate from '../logic/Calculate';
 import Button from './Button';
@@ -16,12 +17,11 @@ const Calculator = () => {
   };
 
   const { total, next, operation } = state;
-  let buffer = `${total}${operation}${next}`.replace(/null/g, '');
-  buffer = buffer.replace(/undefined/g, '');
-  const window = buffer;
+  const buffer = `${total}${operation}${next}`.replace(/null/g, '');
+  const window = buffer.replace(/undefined/g, '');
   return (
     <div className="main">
-      <Display display={window === '' ? undefined : window} />
+      <Display display={window === '' ? '0' : window} />
       <Button ctrls={['AC', '+/-', '%', '÷']} setBtn={onBtnPressed} last={false} />
       <Button ctrls={['7', '8', '9', 'x']} setBtn={onBtnPressed} last={false} />
       <Button ctrls={['4', '5', '6', '-']} setBtn={onBtnPressed} last={false} />
