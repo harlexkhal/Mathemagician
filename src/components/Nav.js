@@ -7,7 +7,7 @@ class Nav extends React.PureComponent {
   render() {
     return (
       <nav className="nav-area">
-        <Link class="logo-container" to="/">
+        <Link className="logo-container" to="/">
           <img src={logo} className="App-logo" alt="logo" />
           <h3 className="app-name-logo">Mathemagician</h3>
         </Link>

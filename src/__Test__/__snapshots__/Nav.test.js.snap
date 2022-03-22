@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Make sure events does not make differences in snapshot (Nav Component) | [Calculator] Menu Click  Event Trigger 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Make sure events does not make differences in snapshot (Nav Component) | [Home] Menu Click  Event Trigger 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Make sure events does not make differences in snapshot (Nav Component) | [Quotes] Menu Click  Event Trigger 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Make sure events does not make differences in snapshot (Nav Component) | Home Menu Click  Event Trigger 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
