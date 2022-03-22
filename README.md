@@ -20,7 +20,7 @@ Click [here](https://harlexkhal.github.io/Mathemagician/) to view live demo
 
 - React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
 - React Testing Library
-- React Router
+- React Router version 6
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
