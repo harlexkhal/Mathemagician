@@ -12,10 +12,14 @@ Click [here](https://harlexkhal.github.io/Mathemagician/) to view live demo
 ### Features implemented so far are:
 
 - Project Setup with React Installations
+- Calculator with (Add, Minus, Multiply, and Division) Features
+- Page for Mathematics Quotes
+- Home page that gives information about the history of mathematics
 
 ## Built With
 
 - React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- React Testing Library
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
@@ -59,6 +63,14 @@ To run the program on a browser through a server run this command in your cli
 npm start
 ```
 This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
+
+## Unit-Testing
+
+You can find all of the unit test for testing all components in the ```src/__Test__``` folder located in the parent source directory of the project. you can create your own custom unit test and test it by running
+```
+npm run test
+```
+This should run all unit test found in the ```src/__Test__```
 
 ## License
 
