@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator Component Test 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test [2] & [0] button 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -23,11 +23,11 @@
+          class=\\"display\\"
+        >
+          <h1
+            class=\\"pixel font\\"
+          >
+-           0
++           20
+          </h1>
+        </div>
+        <div
+          class=\\"ctrls\\"
+        >"
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test [8] & [AC] button 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test [8] & [AC] button 2`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test [AC] button 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test [AC] button 2`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test Operation [ 2 + 8 ] 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test to make sure [AC] Input 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Perform Operation & Display Results (Calculator Component) | Test to make sure [AC] does not change DOM 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
