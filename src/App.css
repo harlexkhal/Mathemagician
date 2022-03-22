@@ -1,0 +1,15 @@
+.desc-main {
+  margin: 0 15px 0 15px;
+  background-color: rgb(192, 4, 192);
+  padding: 30px;
+  opacity: 0.9;
+}
+
+.desc-font {
+  font-family: 'Comic Sans MS', serif;
+  color: white;
+}
+
+.ft-sz {
+  font-size: x-large;
+}
